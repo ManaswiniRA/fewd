@@ -1,0 +1,54 @@
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+    }
+    /* Global Styles */
+    body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    min-height: 100rch;
+    display:flex;
+    flex-direction: column;
+
+    }
+    header {
+    background-color: #333;
+    color: #fff;
+    text-align: right;
+    padding: 1rem;
+    }
+    main {
+    padding: 2rem;
+    }
+    .profile {
+        display: flex;
+        align-items: left;
+        }
+        .photo {
+    
+    flex: 1;
+    padding: 0 2rem;
+    }
+    .photo img {
+    max-width: 100%;
+    height: auto;
+    
+    }
+    .bio {
+    flex: 2;
+    }
+    footer {
+    text-align: center;
+    padding: 1rem 0;
+    background-color: #333;
+    color: #fff;
+    }
+    /* Media Queries */
+    @media screen and (max-width: 768px) {
+    .profile {
+    flex-direction: column;
+    }}
+
+    img{
+       display: block;
+    }
